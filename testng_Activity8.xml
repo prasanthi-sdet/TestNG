@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" parallel="classes">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="Tests">
+        <classes>
+            <class name="testngpractice.Activity1"/>
+            <class name="testngpractice.Activity2"/>
+            <class name="testngpractice.Activity3"/>
+            <class name="testngpractice.Activity4A"/>
+            <class name="testngpractice.Activity4B"/>
+            <class name="testngpractice.Activity5"/>
+            <class name="testngpractice.Activity7"/>
+        </classes>
+    </test>
+</suite>
